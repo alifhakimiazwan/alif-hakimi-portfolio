@@ -32,12 +32,12 @@ const Footer = () => {
         >
           Projects
         </a>
-        <a
+        {/* <a
           className="mx-2 opacity-50 transition-opacity duration-200 ease-in-out hover:opacity-100 cursor-pointer"
           onClick={() => navigate("/allMessages")}
         >
           Notes
-        </a>
+        </a> */}
       </div>
       <ul className="bg-gray-100 flex items-center justify-center p-1 rounded-3xl shadow-sm mt-5">
         <a
